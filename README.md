@@ -1,7 +1,7 @@
 # LKUP_ConvertTextToDateSmall
 Function to convert dates to text
 
-One of the major issues with loading flat files, especially CSV files, are date conversion issues. Usually these occur from a regional of the world with a different date format (or date format left at default USA format but everyone else in Europe is on something else) or from someone making the schoolboy error of opening the file in Microsoft Excel.
+One of the major issues with loading flat files, especially CSV files, are date conversion issues. Usually these occur from a region of the world with a different date format (or date format left at default USA format but everyone else in Europe is on something else) or from someone making the schoolboy error of opening the file in Microsoft Excel.
 
 This function sits in a database called Lookups in my example. I use that database to store useful code that I reuse all over the place. The function itself is a table valued function so it should go parallel and scale relatively well.
 
